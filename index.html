@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sharda's Restaurant</title>
+    <script>
+        function fun() {
+            var x = document.getElementById("form").value;
+            alert("Hi" + " " + x + " you have **Successfully** reserved your table");
+        }
+    </script>
+</head>
+
+<body>
+
+
+    <!----------------------------------------------header--------------------------------------------->
+
+    <div class="container">
+
+        <header>
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <nav id="navbar">
+                <div class="logo"><span>Sharda's Restaurant</span></div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#testimonials">Testimonial</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="#book table">book table</a></li>
+                </ul>
+            </nav>
+
+
+            <div class="overlay">
+                <section id="home">
+                    <h1 class="h-primary">Welcome to Sharda's Restaurant </h1>
+                    <br>
+                    <p>"Healthy Food for Wealthy Mood" </p>
+                    <p>"Eat Food Feel Good" </p>
+                    <button class="btn">Order Now</button>
+                </section>
+            </div>
+        </header>
+
+        <!----------------------------------------------------Menu---------------------------->
+        <section id="menu">
+            <div id="menu">
+                <div class="heading">
+                    <h1>Menu</h1>
+                    <h3>Today's Special</h3>
+                </div>
+                <div class="card">
+                    <img src="https://static.toiimg.com/thumb/53098531.cms?imgsize=246555&width=800&height=800">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Paneer Butter Masala.</h5>
+
+                            <h5 class="price"> Rs100 </h5>
+                        </div>
+                        <p>
+                            Since paneer is low in carbs and high in protein it gets digested slowly and hence good for
+                            diabetes.
+                            Potassium in paneer helps to reduce the effect of high sodium,
+                            by lowering blood pressure and contraction of blood vessels,
+                            resulting in improved heart health and reduced risk of heart attack.</p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://zaykarecipes.com/wp-content/uploads/2023/05/manchurian-fried-rice.jpg" alt="">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>manchurian fried Rice</h5>
+                            <h5 class="price"> Rs100 </h5>
+                        </div>
+                        <p>No wonder fried rice is one of the world's most popular rice dishes! For the home cook,
+                            the beauty of fried rice is that it is very adaptable. Like chow mein, it's perfect for
+                            those nights
+                            when you're cleaning out the refrigerator and want to get rid of any leftover meat or
+                            vegetables..</p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzupLGPVLMrhzqY5e73zIY0kraszl6NVv8UQ&usqp=CAU"
+                        alt="">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Roti/Chapati</h5>
+                            <h5 class="price"> Rs20 </h5>
+                        </div>
+                        <p>
+                            In Roti
+                            the dominating presence of fibers like carbohydrates, soluble fiber,
+                            and proteins make roti a hands-down healthier pick. These fibers give a boost of energy,
+                            encourage healthy blood circulation and give you a fuller feeling for a longer time</p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Bambayya_Pav_bhaji.jpg" alt="">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Pav Bhaji</h5>
+                            <h5 class="price">Rs30 </h5>
+                        </div>
+                        <p> We can called it as "Swast And Mast" dish Because
+                            cheap, easy, quick-to-prepare, and light, yet nutritious food.</p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcUNFZZGACJa2DMFnWrNRjVLe78G4DN3SubA&usqp=CAU"
+                        alt="">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Tomato Soup.</h5>
+                            <h5 class="price"> Rs30 </h5>
+                        </div>
+                        <p>
+                            Tomato soup is a comforting classic for a reason: it's pretty and creamy; it's tangy and
+                            rich;
+                            and you know you're going to like it before you even take that first bite</p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://www.bhf.org.uk/-/media/images/information-support/heart-matters/heart-matters/summer-2018/nutrition/sugary-drinks/squash_drink_fruit_ss_0618_noexp_620x400.jpg?rev=37c1b98f865f460496a743cce921ef8a"
+                        alt="">
+                    <div class="details">
+                        <div class="details-sub">
+                            <h5>Some Healthy Cold Drinks</h5>
+                            <h5 class="price"> Rs20 </h5>
+                        </div>
+                        <p>Drinking cold water can help you lose weight, hydrate your body and even boost your
+                            metabolism rate. </p>
+                        <button>Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-------------------------testimonials----------------------------------------->
+        <section id="testimonials">
+            <h2 class="testimonial-title">What Our Customers Say</h2>
+            <div class="testimonial-container container">
+                <div class="testimonial-box">
+                    <div class="customer-detail">
+                        <div class="customer-photo">
+                            <img src="https://img.indiaforums.com/person/640x480/1/1230-parth-samthaan.jpg?c=7iI2ED"
+                                alt="" />
+                            <p class="customer-name">Gopal Borude</p>
+                        </div>
+                    </div>
+                    <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                    </div>
+                    <p class="testimonial-text">
+                        “This is always our breakfast stop before heading home from vacation. Always delicious.
+                        Always great service. Always worth the stop.”
+                    </p>
+
+                </div>
+                <div class="testimonial-box">
+                    <div class="customer-detail">
+                        <div class="customer-photo">
+                            <img src="E:\Pictures\akoli\IMG_20170319_112453.jpg" alt="" />
+                            <p class="customer-name">Mamta Chovan </p>
+                        </div>
+                    </div>
+                    <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <p class="testimonial-text">
+                        “Breakfast was delicious. Like a good homestyle country savory breakfast
+                        (and Im from the Marathwada, thats saying a lot)…
+                        Enjoyed the whole experience and definitely recommend this place for a place to eat on the
+                        cape.”
+                    </p>
+
+                </div>
+                <div class="testimonial-box">
+                    <div class="customer-detail">
+                        <div class="customer-photo">
+                            <img src="https://www.india-forums.com/bollywood/images/uploads/2Akhil-Akkineni-Stills-From-Debut-Movie-1_Large.jpg"
+                                alt="" />
+                            <p class="customer-name">Akhil Akkineni</p>
+                        </div>
+                    </div>
+                    <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star "></span>
+                        <span class="fa fa-star "></span>
+                    </div>
+                    <p class="testimonial-text">
+                        “Very good service, good menu … not overly extensive. Food was very good quality all around.
+                        They know how to prepare home fries and their Soups are top-notch. Prices were reasonable.”
+                    </p>
+
+                </div>
+            </div>
+        </section>
+        <!--------------------------------About us------------------------------>
+        <div id="about">
+            <h1 class="title">About us</h1>
+            <div class="about_row">
+                <div class="about_column">
+                    <p>
+                        We offer a wide array of fresh food –like Paneer,roti,Varities of
+                        Rice,Pav-Bhaji,Manchurian,Juice,soups and more.
+                        We use the freshest ingredients in preparing our food to provide the best quality and taste.
+                        Try our delicious food today! </p>
+                    <button id="btn1">learn more</button>
+                </div>
+                <div class="about_column">
+                    <img src="https://img.freepik.com/free-photo/chef-making-ok-sign-white-background_1368-2804.jpg?w=2000
+        " alt="">
+                </div>
+            </div>
+        </div>
+        <!--------------------------------------order now--------------------------------------------------->
+        <div id="order">
+            <h1 class="title1">order</h1>
+            <form action="">
+                <input type="text" class="inp_box" placeholder="Name">
+                <input type="email" class="inp_box" placeholder="Email">
+                <textarea type="text" class="inp_box text_area" placeholder="Adress"></textarea>
+                <button class="btn2">Order Now</button>
+
+        </div>
+    </div>
+<!-----------------------------------------table Reservation-------------------------------->
+    <div class="table-container">
+
+
+        <form method="post" name="newform" class="" onSubmit="fun();">
+            <div style="max-width: 400px;">
+            </div>
+
+            <div id="reserve table">
+
+                <div class="table-row">
+                    <div class="table-column">
+
+                        <h1 class="title2">Book Your Table</h1>
+                        <br>
+                        <p>
+                        <figcaption>
+                            <h3>We would be glad to reserve a table for you at our restaurant!</h3>
+                            <h4>if you book your table in advance ,
+                                "Congrats" you will get 10% Discount in your total bill.</h4>
+                        </figcaption>
+                        </p>
+                        <br>
+                        <div>
+                            <h2> you will get your discount like this:</h2>
+                            <table border="1">
+                                <colgroup>
+                                    <col span="4" style="background-color:orangered">
+
+                                </colgroup>
+                                <tr>
+                                    <th> No. of people:</th>
+                                    <th>Disscount like this:</th> 
+                                     
+                                </tr>
+                                <tr>
+                                    <th>1-4</th>
+                                    <th>10%</th> 
+                                    
+                                </tr>
+                               
+                                <tr>
+                                    <th>4-10</th>
+                                    <th>20%</th> 
+                                    
+                                </tr>
+                              
+                                <tr>
+                                    <th>more than 10</th>
+                                    <th>30%</th> 
+                                    
+                                </tr>
+
+                            </table>
+                        </div>
+
+                    </div>
+        </form>
+
+        <div class="table-column">
+            <div id="book table" class="background-img">
+
+                <form method="post" name="newform" class="tables" onSubmit="fun();">
+                    <div>
+                        <h1>
+                            <marquee>Table Reservation</marquee>
+                        </h1>
+                    </div>
+
+                    <div>
+                        <div>Name<span>*</span><br />
+                            <input type="text" id="form" name="data_3" class="form-control" />
+                        </div>
+                        <div>Phone<span>*</span><br />
+                            <input type="text" name="data_4" class="form-control" />
+                        </div>
+                        <div>Email<span>*</span><br />
+                            <input type="text" name="data_5" class="form-control" />
+                        </div>
+                        <div>Date<span> *</span><br />
+                            <input type="text" name="data_6" class="form-control" />
+                        </div>
+                        <div>Time<span> *</span><br />
+                            <input type="text" id="data_7" name="data_7" style="max-width : 250px;"
+                                class="form-control" />
+                        </div>
+                        <div>Number of Attendees<span> *</span><br />
+                            <select id="data_8" name="data_8" class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>10+ (Specify in Comments)</option>
+                            </select>
+                        </div>
+                        <div>Comments / Additional Requests<br />
+                            <textarea id="data_9" false name="data_9" rows="6" class="form-control"></textarea>
+                        </div>
+                        <div><input value="Submit" type="submit" /></div>
+
+                </form>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-----------------------------------------------------footer------------------------------------------>
+   
+        <footer>
+            <div>
+                &copy;copyright 2023
+                <p>
+                    Designed by Sharda
+                </p>
+                <p><h1> Contact us on:</h1></p>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>  
+                <a href="#" class="fa fa-instagram"></a>  
+                <a href="#" class="fa fa-youtube"></a>  
+                <a href="#" class="fa fa-google"></a>  
+            </div>
+        </footer>
+    
+   
+
+</body>
+
+</html>
